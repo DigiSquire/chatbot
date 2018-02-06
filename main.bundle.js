@@ -20,7 +20,7 @@ webpackEmptyAsyncContext.id = "../../../../../src/$$_gendir lazy recursive";
 /***/ "../../../../../src/app/app.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"row\">\n        <div class=\"column\"></div>\n        <div class=\"column column-25 \" style=\" border: 1px solid #9E9E9E; overflow: auto; box-shadow: 1px 5px 4px 2px #607D8B; \">\n            <chat-dialog></chat-dialog>\n        </div>\n        <div class=\"column column-10\"></div>\n      </div>\n    \n\n\n"
+module.exports = "<div class=\"row\">\n        <!-- <div class=\"column\"></div> -->\n        <div class=\"column column-100\" style=\" border: 1px solid #9E9E9E; overflow: auto; box-shadow: 1px 5px 4px 2px #607D8B; \">\n            <chat-dialog></chat-dialog>\n        </div>\n        <!-- <div class=\"column column-10\"></div> -->\n      </div>\n    \n\n\n"
 
 /***/ }),
 
