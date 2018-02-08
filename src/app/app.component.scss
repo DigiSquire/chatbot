@@ -1,0 +1,83 @@
+.b-agent-demo{
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    width: 100%;
+    height: auto;
+    color: #2b313f;
+    font-size: 12px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.b-agent-demo .b-agent-demo_header {
+    min-height: 80px;
+    height: 80px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #2b303e;
+    display: table;
+}
+.b-agent-demo .b-agent-demo_header-icon {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 50px;
+    height: 41px;
+    overflow: hidden;
+    vertical-align: middle;
+    text-align: center;
+}
+.b-agent-demo .b-agent-demo_header-icon img {
+    max-height: 100%;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border: 0;
+    margin: auto;
+}
+.b-agent-demo .b-agent-demo_header-wrapper {
+    display: table-cell;
+    vertical-align: middle;
+}
+.b-agent-demo .b-agent-demo_header-agent-name {
+    padding-left: 80px;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+}
+
+.b-agent-demo .b-agent-demo_result {
+    overflow-y: auto;
+    background: white;
+    position: fixed;
+    top: 110px;
+    bottom: 55px;
+    width: 100%;
+}
+.b-agent-demo .b-agent-demo_result-table {
+    height: 100%;
+    min-height: 100%;
+    width: 100%;
+}
+.b-agent-demo .b-agent-demo_result-table td {
+    vertical-align: bottom;
+}
+.b-agent-demo .b-agent-demo_powered_by {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 80px;
+    height: 30px;
+    background-color: #F8F8F8;
+    vertical-align: middle;
+}

@@ -1,9 +1,30 @@
-<div class="row">
+<div class="row b-agent-demo" >
         <!-- <div class="column"></div> -->
-        <div class="column column-100" style=" border: 1px solid #9E9E9E; overflow: auto; box-shadow: 1px 5px 4px 2px #607D8B; ">
-            <chat-dialog></chat-dialog>
+        <div class="b-agent-demo_header">
+            <div class="b-agent-demo_header-icon">
+                <div class="b-agent-demo_header-icon-align-helper">
+                    <img id="agent-avatar" src="https://storage.googleapis.com/cloudprod-apiai/c105435a-7a04-49ec-87e0-55a2426fa1a5_s.png" srcset="https://storage.googleapis.com/cloudprod-apiai/c105435a-7a04-49ec-87e0-55a2426fa1a5_s.png 2x, https://storage.googleapis.com/cloudprod-apiai/c105435a-7a04-49ec-87e0-55a2426fa1a5_xs.png 1x">
+                </div>
+            </div>
+            <div class="b-agent-demo_header-wrapper">
+                <div class="b-agent-demo_header-agent-name">Demo Bot</div>
+            </div>
         </div>
-        <!-- <div class="column column-10"></div> -->
+        <div class="b-agent-demo_powered_by">
+        </div>
+        <div class="b-agent-demo_result" id="resultWrapper">
+            <table class="b-agent-demo_result-table">
+                <tbody>
+                    <tr>
+                        <td id="result">
+                                <div class="column column-100">
+                                    <chat-dialog></chat-dialog>
+                                </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
       </div>
     
 

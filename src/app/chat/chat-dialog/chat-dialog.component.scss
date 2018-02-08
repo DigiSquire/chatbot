@@ -4,21 +4,82 @@
     padding: 15px 20px;
     position: relative;
     font-weight: bold;
+    //  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    // font-weight: 300;
+    // width: 100%;
+    // height: auto;
+    // color: #2b313f;
+    // font-size: 12px;
+    // overflow: hidden;
+    // position: absolute;
+    // top: 0;
+    // bottom: 0;
+    // left: 0;
+    // right: 0;
 }
 .message.to {
-    background-color: #2095FE;
-    color: #fff;
-    margin-left: 100px;
-    text-align: right;
+    // background-color: #2095FE;
+    // color: #fff;
+    // margin-left: 100px;
+    // text-align: right;
+    background-color: #efefef;
+    float: left;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-left: 15px;
+    padding: 15px 25px;
+    border-radius: 3px;
+    border: 1px solid #eee;
+    margin-bottom: 5px;
+    font-size: 16px;
+    clear: both;
 }
 .message.from {
-    background-color: #E5E4E9;
-    color: #363636;
-    margin-right: 100px;
-    margin-top: 10px;
+    // background-color: #E5E4E9;
+    // color: #363636;
+    // margin-right: 100px;
+    // margin-top: 10px;
+    color: white;
+    background-color: #A5D175;
+    float: right;
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-left: 15px;
+    padding: 15px 25px;
+    border-radius: 3px;
+    border: 1px solid #eee;
+    margin-bottom: 5px;
+    font-size: 16px;
+    clear: both;
 }
 .message.to + .message.to,
 .message.from + .message.from {
 margin-top: 10px;
 margin-bottom: 10px;
+display: inline-block;
+    padding: 15px 25px;
+    border-radius: 3px;
+    border: 1px solid #eee;
+    margin-bottom: 5px;
+    font-size: 16px;
+    clear: both;
+}
+.clearfix {
+    clear: both;
+}
+.b-agent-demo_input {
+    position: fixed;
+    bottom: 0;
+    height: 55px;
+    border-top: 1px solid lightgray;
+    background-color: white;
+    width: 100%;
+}
+    .b-agent-demo_input #query {
+    width: 100%;
+    border: 0;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+    height: 55px;
 }
