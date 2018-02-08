@@ -16,5 +16,6 @@
 <div class="clearfix"></div>
 <div class="b-agent-demo_input">
     <input [(ngModel)]="formValue" (keyup.enter)="sendMessage()" id="query" type="text" placeholder="Ask something...">
+    <i (click)="sendMessage()" class="plane fa fa-paper-plane"  aria-hidden="true"></i>
     <!-- <button (click)="sendMessage()">Send</button> -->
 </div>
